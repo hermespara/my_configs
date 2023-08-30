@@ -62,3 +62,44 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 
 Set ZSH_THEME="powerlevel10k/powerlevel10k" in `~/.zshrc`.
+
+plugins: 
+```
+plugins=(git
+	extract
+	colored-man-pages
+	last-working-dir
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+	z
+  git-extra-commands
+  zsh-history-substring-search)
+```
+
+Install zsh-autosuggestions
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+syntax highlight
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+git commands plugin
+
+```
+git clone https://github.com/unixorn/git-extra-commands.git $ZSH_CUSTOM/plugins/git-extra-commands
+```
+
+history substring search
+
+```
+ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+```
+
+## JetBrains font
+
+Font for editors ;)
+
+Check out ![https://www.jetbrains.com/fr-fr/lp/mono/#how-to-install](https://www.jetbrains.com/fr-fr/lp/mono/#how-to-install)
